@@ -24,7 +24,7 @@ public class Subset {
     }
 
     static void dfs(int idx) {
-        // 기저 조건
+
         if(idx == N) {
             for(int i = 0; i < N; i++) {
                 if(ch[i]) System.out.print(arr[i] + " ");
