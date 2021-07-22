@@ -23,7 +23,7 @@ public class Permutation {
     }
 
     private static void dfs(int cnt, int flag) {
-        
+
         if(cnt == N) {
             for(int i = 0; i < N; i++) {
                 System.out.print(res[i] + " ");
